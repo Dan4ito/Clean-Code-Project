@@ -3,31 +3,31 @@ import ingredients.CocoaButter;
 import ingredients.CocoaMass;
 import ingredients.MilkPowder;
 import ingredients.Sugar;
+import ingredients.implementations.perugina.PeruginaCocoaButter;
+import ingredients.implementations.perugina.PeruginaCocoaMass;
+import ingredients.implementations.perugina.PeruginaMilkPowder;
+import ingredients.implementations.perugina.PeruginaSugar;
 
 public class Perugina implements ChocolateIngedientFactory {
 
 	@Override
 	public CocoaMass createCocoaMass() {
-		// TODO Auto-generated method stub
-		return null;
+		return new PeruginaCocoaMass();
 	}
 
 	@Override
 	public CocoaButter createCocoaButter() {
-		// TODO Auto-generated method stub
-		return null;
+		return new PeruginaCocoaButter();
 	}
 
 	@Override
 	public Sugar createSugar() {
-		// TODO Auto-generated method stub
-		return null;
+		return new PeruginaSugar();
 	}
 
 	@Override
 	public MilkPowder createMilkPowder() {
-		// TODO Auto-generated method stub
-		return null;
+		return new PeruginaMilkPowder();
 	}
 
 }

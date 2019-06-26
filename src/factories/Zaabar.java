@@ -3,31 +3,31 @@ import ingredients.CocoaButter;
 import ingredients.CocoaMass;
 import ingredients.MilkPowder;
 import ingredients.Sugar;
+import ingredients.implementations.zaabar.ZaabarCocoaButter;
+import ingredients.implementations.zaabar.ZaabarCocoaMass;
+import ingredients.implementations.zaabar.ZaabarMilkPowder;
+import ingredients.implementations.zaabar.ZaabarSugar;
 
 public class Zaabar implements ChocolateIngedientFactory {
 
 	@Override
 	public CocoaMass createCocoaMass() {
-		// TODO Auto-generated method stub
-		return null;
+		return new ZaabarCocoaMass();
 	}
 
 	@Override
 	public CocoaButter createCocoaButter() {
-		// TODO Auto-generated method stub
-		return null;
+		return new ZaabarCocoaButter();
 	}
 
 	@Override
 	public Sugar createSugar() {
-		// TODO Auto-generated method stub
-		return null;
+		return new ZaabarSugar();
 	}
 
 	@Override
 	public MilkPowder createMilkPowder() {
-		// TODO Auto-generated method stub
-		return null;
+		return new ZaabarMilkPowder();
 	}
 
 }

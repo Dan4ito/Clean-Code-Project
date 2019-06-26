@@ -3,31 +3,31 @@ import ingredients.CocoaButter;
 import ingredients.CocoaMass;
 import ingredients.MilkPowder;
 import ingredients.Sugar;
+import ingredients.implementations.olivesinclair.OliveSinclairCocoaButter;
+import ingredients.implementations.olivesinclair.OliveSinclairCocoaMass;
+import ingredients.implementations.olivesinclair.OliveSinclairMilkPowder;
+import ingredients.implementations.olivesinclair.OliveSinclairSugar;
 
 public class OliveSinclair implements ChocolateIngedientFactory {
 
 	@Override
 	public CocoaMass createCocoaMass() {
-		// TODO Auto-generated method stub
-		return null;
+		return new OliveSinclairCocoaMass();
 	}
 
 	@Override
 	public CocoaButter createCocoaButter() {
-		// TODO Auto-generated method stub
-		return null;
+		return new OliveSinclairCocoaButter();
 	}
 
 	@Override
 	public Sugar createSugar() {
-		// TODO Auto-generated method stub
-		return null;
+		return new OliveSinclairSugar();
 	}
 
 	@Override
 	public MilkPowder createMilkPowder() {
-		// TODO Auto-generated method stub
-		return null;
+		return new OliveSinclairMilkPowder();
 	}
 
 }
