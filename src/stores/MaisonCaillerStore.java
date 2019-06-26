@@ -5,7 +5,6 @@ import chocolates.DarkChocolate;
 import chocolates.MilkChocolate;
 import chocolates.WhiteChocolate;
 import factories.ChocolateIngedientFactory;
-import factories.DeKarinaFactory;
 import factories.MaisonCaillerFactory;
 
 public class MaisonCaillerStore extends ChocolateStore {
