@@ -8,7 +8,7 @@ import ingredients.implementations.olivesinclair.OliveSinclairCocoaMass;
 import ingredients.implementations.olivesinclair.OliveSinclairMilkPowder;
 import ingredients.implementations.olivesinclair.OliveSinclairSugar;
 
-public class OliveSinclair implements ChocolateIngedientFactory {
+public class OliveSinclairFactory implements ChocolateIngedientFactory {
 
 	@Override
 	public CocoaMass createCocoaMass() {
@@ -28,6 +28,11 @@ public class OliveSinclair implements ChocolateIngedientFactory {
 	@Override
 	public MilkPowder createMilkPowder() {
 		return new OliveSinclairMilkPowder();
+	}
+	
+	@Override
+	public String getName() {
+		return "Olive & Sinclair";
 	}
 
 }

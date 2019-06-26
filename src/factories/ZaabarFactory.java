@@ -8,7 +8,7 @@ import ingredients.implementations.zaabar.ZaabarCocoaMass;
 import ingredients.implementations.zaabar.ZaabarMilkPowder;
 import ingredients.implementations.zaabar.ZaabarSugar;
 
-public class Zaabar implements ChocolateIngedientFactory {
+public class ZaabarFactory implements ChocolateIngedientFactory {
 
 	@Override
 	public CocoaMass createCocoaMass() {
@@ -30,4 +30,8 @@ public class Zaabar implements ChocolateIngedientFactory {
 		return new ZaabarMilkPowder();
 	}
 
+	@Override
+	public String getName() {
+		return "Zaabar";
+	}
 }

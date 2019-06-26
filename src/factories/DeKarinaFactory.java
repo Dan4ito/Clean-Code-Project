@@ -8,7 +8,7 @@ import ingredients.implementations.dekarina.DeKarinaCocoaMass;
 import ingredients.implementations.dekarina.DeKarinaMilkPowder;
 import ingredients.implementations.dekarina.DeKarinaSugar;
 
-public class DeKarina implements ChocolateIngedientFactory {
+public class DeKarinaFactory implements ChocolateIngedientFactory {
 
 	@Override
 	public CocoaMass createCocoaMass() {
@@ -28,6 +28,11 @@ public class DeKarina implements ChocolateIngedientFactory {
 	@Override
 	public MilkPowder createMilkPowder() {
 		return new DeKarinaMilkPowder();
+	}
+
+	@Override
+	public String getName() {
+		return "De Karina";
 	}
 
 }

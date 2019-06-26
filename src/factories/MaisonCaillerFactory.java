@@ -8,7 +8,7 @@ import ingredients.implementations.maisoncailler.MaisonCaillerCocoaMass;
 import ingredients.implementations.maisoncailler.MaisonCaillerMilkPowder;
 import ingredients.implementations.maisoncailler.MaisonCaillerSugar;
 
-public class MaisonCailler implements ChocolateIngedientFactory {
+public class MaisonCaillerFactory implements ChocolateIngedientFactory {
 
 	@Override
 	public CocoaMass createCocoaMass() {
@@ -28,6 +28,11 @@ public class MaisonCailler implements ChocolateIngedientFactory {
 	@Override
 	public MilkPowder createMilkPowder() {
 		return new MaisonCaillerMilkPowder();
+	}
+
+	@Override
+	public String getName() {
+		return "Maison Cailler";
 	}
 
 }

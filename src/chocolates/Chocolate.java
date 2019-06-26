@@ -10,4 +10,10 @@ public abstract class Chocolate {
 	protected CocoaButter cocoaButter;
 	protected Sugar sugar;
 	protected MilkPowder milkPowder;
+	
+	public abstract void prepare();
+	
+	public void box() {
+		System.out.println("Boxing up the chocolate!");		
+	}
 }

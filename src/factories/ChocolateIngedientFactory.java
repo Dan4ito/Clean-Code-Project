@@ -10,4 +10,6 @@ public interface ChocolateIngedientFactory {
 	public Sugar createSugar();
 	public MilkPowder createMilkPowder();
 	
+	public String getName();
+	
 }

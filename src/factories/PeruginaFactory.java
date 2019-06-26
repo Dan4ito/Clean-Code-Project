@@ -8,7 +8,7 @@ import ingredients.implementations.perugina.PeruginaCocoaMass;
 import ingredients.implementations.perugina.PeruginaMilkPowder;
 import ingredients.implementations.perugina.PeruginaSugar;
 
-public class Perugina implements ChocolateIngedientFactory {
+public class PeruginaFactory implements ChocolateIngedientFactory {
 
 	@Override
 	public CocoaMass createCocoaMass() {
@@ -28,6 +28,11 @@ public class Perugina implements ChocolateIngedientFactory {
 	@Override
 	public MilkPowder createMilkPowder() {
 		return new PeruginaMilkPowder();
+	}
+	
+	@Override
+	public String getName() {
+		return "Perugina";
 	}
 
 }

@@ -9,7 +9,7 @@ public class MilkChocolate extends Chocolate {
 		this.ingedientFactory = ingedientFactory;
 	}
 	
-	void prepare() {
+	public void prepare() {
 		System.out.println("Preparing Milk Chocolate");
 		cocoaMass = ingedientFactory.createCocoaMass();
 		cocoaButter = ingedientFactory.createCocoaButter();
