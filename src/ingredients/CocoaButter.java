@@ -1,5 +1,5 @@
 package ingredients;
 
-public class CocoaButter {
+public interface CocoaButter {
 
 }

@@ -1,5 +1,5 @@
 package ingredients;
 
-public class CocoaMass {
+public interface CocoaMass {
 
 }

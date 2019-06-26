@@ -1,5 +1,5 @@
 package ingredients;
 
-public class Sugar {
+public interface Sugar {
 
 }

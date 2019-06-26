@@ -1,5 +1,5 @@
 package ingredients;
 
-public class MilkPowder {
+public interface MilkPowder {
 
 }
