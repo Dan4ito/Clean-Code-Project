@@ -3,8 +3,19 @@ package stores;
 import chocolates.Chocolate;
 import chocolates.ChocolateType;
 
+/**
+ * An abstract class representing all different chocolate factory stores
+ * @author Dan4itoLP
+ *
+ */
 public abstract class ChocolateStore {
 	
+	/**
+	 * This method return a Chocolate object result. This method also is a template method 
+	 * defining the algorithm with some of the steps going to be decided by the subclasses.
+	 * @param type as ChocolateType object
+	 * @return Chocolate
+	 */
 	final public Chocolate orderChocolate(ChocolateType type) {			// template method design pattern
 		Chocolate chocolate;
 		chocolate = createChocolate(type);
@@ -16,6 +27,11 @@ public abstract class ChocolateStore {
 		return chocolate;
 	}
 	
+	/**
+	 * This method is overriden by the subclasses and is used in the template method algorithm
+	 * @param type as ChocolateType object
+	 * @return Chocolate
+	 */
 	protected abstract Chocolate createChocolate(ChocolateType type);
 	
 	private void temperingTheChocolate(Chocolate chocolate) {

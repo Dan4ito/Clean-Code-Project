@@ -6,7 +6,7 @@ import ingredients.Sugar;
 
 /**
  * Chocolate is an abstract class representing the different kinds of chocolate.
- * Each chocolate kind has six properties: CocoaMass, CocoaButter, Sugar, MilkPowder
+ * Each chocolate kind has six properties: CocoaMass, CocoaButter, Sugar, MilkPowder, ChocolateType, 
  * @author Dan4itoLP
  *
  */
@@ -17,15 +17,20 @@ public abstract class Chocolate {
 	protected MilkPowder milkPowder;
 	
 	protected ChocolateType typeOfChocolate;
-	protected String factoryOfTheChocolate;
 	
 	protected abstract void prepare();
 
+	/**
+	 * This method returns the string representation of the chocolate type.
+	 * @return the string representation of the chocolate type
+	 */
 	public String getTypeOfChocolate() {
 		return typeOfChocolate.toString();
 	}
 
-	public String getFactoryOfTheChocolate() {
-		return factoryOfTheChocolate;
-	}
+	/**
+	 * This method return which factory the chocolate was made in.
+	 * @return the string representation of the factory of the chocolate
+	 */
+	public abstract String getFactoryOfTheChocolate();
 }

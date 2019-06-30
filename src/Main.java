@@ -12,7 +12,8 @@ import stores.ZaabarStore;
 public class Main {
 	public static void main(String[] args) throws Exception {
 		ChocolateStore dekarinaStore = new DeKarinaStore();
-		Chocolate whiteDeKarinaChocolate = dekarinaStore.orderChocolate(ChocolateType.MILK);		
+		Chocolate whiteDeKarinaChocolate = dekarinaStore.orderChocolate(ChocolateType.MILK);	
+		
 		
 		ChocolateStore maisonCaillerStore = new MaisonCaillerStore();
 		Chocolate darkMaisonCaillerChocolate = maisonCaillerStore.orderChocolate(ChocolateType.WHITE);
@@ -26,7 +27,7 @@ public class Main {
 		ChocolateStore zaabarStore = new ZaabarStore();
 		Chocolate milkZaabarChocolate = zaabarStore.orderChocolate(ChocolateType.WHITE);
 		
-//		List<String> fdgfEs = null;
-//		fdgfEs.add(1, "sd");
+		List<String> fdgfEs = null;
+		fdgfEs.add(1, "sd");
 	}
 }
