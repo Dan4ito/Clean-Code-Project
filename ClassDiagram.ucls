@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="chocolates.DarkChocolate" project="ChocolateStores" 
+    file="/ChocolateStores/src/chocolates/DarkChocolate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1242" y="679"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="chocolates.MilkChocolate" project="ChocolateStores" 
+    file="/ChocolateStores/src/chocolates/MilkChocolate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="987" y="679"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="chocolates.WhiteChocolate" project="ChocolateStores" 
+    file="/ChocolateStores/src/chocolates/WhiteChocolate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="734" y="686"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="chocolates.Chocolate" project="ChocolateStores" 
+    file="/ChocolateStores/src/chocolates/Chocolate.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="973" y="453"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="factories.MaisonCaillerFactory" project="ChocolateStores" 
+    file="/ChocolateStores/src/factories/MaisonCaillerFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="358" y="107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="factories.DeKarinaFactory" project="ChocolateStores" 
+    file="/ChocolateStores/src/factories/DeKarinaFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1042" y="107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="factories.PeruginaFactory" project="ChocolateStores" 
+    file="/ChocolateStores/src/factories/PeruginaFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="130" y="107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="factories.OliveSinclairFactory" project="ChocolateStores" 
+    file="/ChocolateStores/src/factories/OliveSinclairFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="586" y="107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="9" language="java" name="factories.ChocolateIngedientFactory" project="ChocolateStores" 
+    file="/ChocolateStores/src/factories/ChocolateIngedientFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="569" y="328"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="10" language="java" name="factories.ZaabarFactory" project="ChocolateStores" 
+    file="/ChocolateStores/src/factories/ZaabarFactory.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="814" y="107"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="11" language="java" name="ingredients.CocoaButter" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/CocoaButter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2245" y="383"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="12" language="java" name="ingredients.MilkPowder" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/MilkPowder.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3264" y="263"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="13" language="java" name="ingredients.Sugar" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/Sugar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3267" y="381"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="14" language="java" name="ingredients.CocoaMass" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/CocoaMass.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2245" y="279"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="15" language="java" name="stores.ChocolateStore" project="ChocolateStores" 
+    file="/ChocolateStores/src/stores/ChocolateStore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4005" y="138"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="stores.MaisonCaillerStore" project="ChocolateStores" 
+    file="/ChocolateStores/src/stores/MaisonCaillerStore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3997" y="340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="stores.PeruginaStore" project="ChocolateStores" 
+    file="/ChocolateStores/src/stores/PeruginaStore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4461" y="340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="stores.OliveSinclairStore" project="ChocolateStores" 
+    file="/ChocolateStores/src/stores/OliveSinclairStore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="4229" y="340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="stores.ZaabarStore" project="ChocolateStores" 
+    file="/ChocolateStores/src/stores/ZaabarStore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3765" y="340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="20" language="java" name="stores.DeKarinaStore" project="ChocolateStores" 
+    file="/ChocolateStores/src/stores/DeKarinaStore.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3533" y="340"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="21" language="java" name="ingredients.implementations.dekarina.DeKarinaSugar" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/dekarina/DeKarinaSugar.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3669" y="531"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="ingredients.implementations.dekarina.DeKarinaCocoaButter" 
+    project="ChocolateStores" file="/ChocolateStores/src/ingredients/implementations/dekarina/DeKarinaCocoaButter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2603" y="533"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="23" language="java" name="ingredients.implementations.dekarina.DeKarinaCocoaMass" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/dekarina/DeKarinaCocoaMass.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="164" x="2150" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="24" language="java" name="ingredients.implementations.dekarina.DeKarinaMilkPowder" 
+    project="ChocolateStores" file="/ChocolateStores/src/ingredients/implementations/dekarina/DeKarinaMilkPowder.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="164" x="3404" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="ingredients.implementations.maisoncailler.MaisonCaillerCocoaMass" 
+    project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/maisoncailler/MaisonCaillerCocoaMass.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="183" x="2558" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="26" language="java" name="ingredients.implementations.maisoncailler.MaisonCaillerCocoaButter" 
+    project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/maisoncailler/MaisonCaillerCocoaButter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1975" y="533"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="27" language="java" name="ingredients.implementations.maisoncailler.MaisonCaillerSugar" 
+    project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/maisoncailler/MaisonCaillerSugar.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3033" y="531"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="ingredients.implementations.maisoncailler.MaisonCaillerMilkPowder" 
+    project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/maisoncailler/MaisonCaillerMilkPowder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="183" x="2781" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="ingredients.implementations.olivesinclair.OliveSinclairMilkPowder" 
+    project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/olivesinclair/OliveSinclairMilkPowder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="178" x="3608" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="30" language="java" name="ingredients.implementations.olivesinclair.OliveSinclairCocoaMass" 
+    project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/olivesinclair/OliveSinclairCocoaMass.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="178" x="1736" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="31" language="java" name="ingredients.implementations.olivesinclair.OliveSinclairCocoaButter" 
+    project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/olivesinclair/OliveSinclairCocoaButter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2196" y="533"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="32" language="java" name="ingredients.implementations.olivesinclair.OliveSinclairSugar" 
+    project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/olivesinclair/OliveSinclairSugar.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3254" y="531"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="33" language="java" name="ingredients.implementations.perugina.PeruginaCocoaMass" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/perugina/PeruginaCocoaMass.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="164" x="2354" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="34" language="java" name="ingredients.implementations.perugina.PeruginaMilkPowder" 
+    project="ChocolateStores" file="/ChocolateStores/src/ingredients/implementations/perugina/PeruginaMilkPowder.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="81" width="164" x="3200" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="35" language="java" name="ingredients.implementations.perugina.PeruginaCocoaButter" 
+    project="ChocolateStores" file="/ChocolateStores/src/ingredients/implementations/perugina/PeruginaCocoaButter.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1762" y="533"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="36" language="java" name="ingredients.implementations.perugina.PeruginaSugar" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/perugina/PeruginaSugar.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="3465" y="531"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="37" language="java" name="ingredients.implementations.zaabar.ZaabarCocoaMass" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/zaabar/ZaabarCocoaMass.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="156" x="1954" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="38" language="java" name="ingredients.implementations.zaabar.ZaabarMilkPowder" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/zaabar/ZaabarMilkPowder.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="81" width="156" x="3004" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="39" language="java" name="ingredients.implementations.zaabar.ZaabarSugar" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/zaabar/ZaabarSugar.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2824" y="531"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="40" language="java" name="ingredients.implementations.zaabar.ZaabarCocoaButter" project="ChocolateStores" 
+    file="/ChocolateStores/src/ingredients/implementations/zaabar/ZaabarCocoaButter.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="2403" y="533"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <realization id="41">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <realization id="42">    
+    <end type="SOURCE" refId="30"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="43">    
+    <end type="SOURCE" refId="1" navigable="false">      
+      <attribute id="44" name="ingedientFactory"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="46">    
+    <end type="SOURCE" refId="29"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="47">    
+    <end type="SOURCE" refId="38"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="48">    
+    <end type="SOURCE" refId="34"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="49">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="50">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="51" name="cocoaMass"/>      
+      <multiplicity id="52" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="14" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="53">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="54" name="milkPowder"/>      
+      <multiplicity id="55" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="12" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="56">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="57">    
+    <end type="SOURCE" refId="3" navigable="false">      
+      <attribute id="58" name="ingedientFactory"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="60">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="61">    
+    <end type="SOURCE" refId="28"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="62">    
+    <end type="SOURCE" refId="37"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <association id="63">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="64" name="cocoaButter"/>      
+      <multiplicity id="65" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="66">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="67">    
+    <end type="SOURCE" refId="31"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="68">    
+    <end type="SOURCE" refId="24"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="69">    
+    <end type="SOURCE" refId="26"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <generalization id="70">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <realization id="71">    
+    <end type="SOURCE" refId="32"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="72">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="73">    
+    <end type="SOURCE" refId="39"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <generalization id="74">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="75">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <realization id="76">    
+    <end type="SOURCE" refId="35"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="77">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <generalization id="78">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <association id="79">    
+    <end type="SOURCE" refId="2" navigable="false">      
+      <attribute id="80" name="ingedientFactory"/>      
+      <multiplicity id="81" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="82">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <realization id="83">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="84">    
+    <end type="SOURCE" refId="33"/>    
+    <end type="TARGET" refId="14"/>  
+  </realization>  
+  <generalization id="85">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </generalization>  
+  <generalization id="86">    
+    <end type="SOURCE" refId="20"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <realization id="87">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <association id="88">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="89" name="sugar"/>      
+      <multiplicity id="90" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="13" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="91">    
+    <end type="SOURCE" refId="40"/>    
+    <end type="TARGET" refId="11"/>  
+  </realization>  
+  <realization id="92">    
+    <end type="SOURCE" refId="36"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <generalization id="93">    
+    <end type="SOURCE" refId="18"/>    
+    <end type="TARGET" refId="15"/>  
+  </generalization>  
+  <realization id="94">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="9"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
