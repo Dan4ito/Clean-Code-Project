@@ -19,15 +19,15 @@ public abstract class ChocolateStore {
 	protected abstract Chocolate createChocolate(ChocolateType type);
 	
 	private void temperingTheChocolate(Chocolate chocolate) {
-		System.out.println("Tempering The " + chocolate.getTypeOfChocolate() + " from " + chocolate.getFactoryOfTheChocolate());
+		System.out.println("Tempering The " + chocolate.getTypeOfChocolate() + " Chocolate from " + chocolate.getFactoryOfTheChocolate());
 	}
 	
 	private void mouldingTheChocolate(Chocolate chocolate) {
-		System.out.println("Moulding The " + chocolate.getTypeOfChocolate() + " from " + chocolate.getFactoryOfTheChocolate());
+		System.out.println("Moulding The " + chocolate.getTypeOfChocolate() + " Chocolate from " + chocolate.getFactoryOfTheChocolate());
 	}
 	
 	private void coolingTheChocolate(Chocolate chocolate) {
-		System.out.println("Cooling The " + chocolate.getTypeOfChocolate() + " from " + chocolate.getFactoryOfTheChocolate());	
+		System.out.println("Cooling The " + chocolate.getTypeOfChocolate() + " Chocolate from " + chocolate.getFactoryOfTheChocolate());	
 	}
 	
 	private void boxTheChocolate(Chocolate chocolate) {
