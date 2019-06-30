@@ -18,7 +18,7 @@ public abstract class ChocolateStore {
 	 */
 	final public Chocolate orderChocolate(ChocolateType type) {			// template method design pattern
 		Chocolate chocolate;
-		chocolate = createChocolate(type);
+		chocolate = createChocolate(type);								// subclasses determine this behavior
 		temperingTheChocolate(chocolate);
 		mouldingTheChocolate(chocolate);
 		coolingTheChocolate(chocolate);

@@ -18,7 +18,10 @@ public abstract class Chocolate {
 	
 	protected ChocolateType typeOfChocolate;
 	
-	protected abstract void prepare();
+	/**
+	 * Here we prepare the ingredients from the appropriate ingredientsFactory
+	 */
+	protected abstract void prepare();						
 
 	/**
 	 * This method returns the string representation of the chocolate type.

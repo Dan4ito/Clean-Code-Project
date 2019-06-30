@@ -1,27 +1,18 @@
 package stores;
 
 import chocolates.Chocolate;
+import chocolates.ChocolateFactory;
 import chocolates.ChocolateType;
-import chocolates.DarkChocolate;
-import chocolates.MilkChocolate;
-import chocolates.WhiteChocolate;
 import factories.ChocolateIngedientFactory;
 import factories.PeruginaFactory;
 
 public class PeruginaStore extends ChocolateStore {
 
 	@Override
-	protected Chocolate createChocolate(ChocolateType type) {
-		Chocolate chocolate = null;
+	protected Chocolate createChocolate(ChocolateType type) {	
 		ChocolateIngedientFactory ingedientFactory = new PeruginaFactory();
-		
-		if(type == ChocolateType.MILK) {
-			chocolate = new MilkChocolate(ingedientFactory);
-		} else if (type == ChocolateType.DARK) {
-			chocolate = new DarkChocolate(ingedientFactory);
-		} else if (type == ChocolateType.WHITE) {
-			chocolate = new WhiteChocolate(ingedientFactory);
-		}
+		ChocolateFactory chocolateFactory = new ChocolateFactory();
+		Chocolate chocolate = chocolateFactory.createChocolate(type, ingedientFactory);
 		return chocolate;
 	}
 

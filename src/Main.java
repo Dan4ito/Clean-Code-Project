@@ -2,6 +2,7 @@ import java.util.List;
 
 import chocolates.Chocolate;
 import chocolates.ChocolateType;
+import chocolates.DarkChocolate;
 import stores.ChocolateStore;
 import stores.DeKarinaStore;
 import stores.MaisonCaillerStore;
@@ -13,7 +14,6 @@ public class Main {
 	public static void main(String[] args) throws Exception {
 		ChocolateStore dekarinaStore = new DeKarinaStore();
 		Chocolate whiteDeKarinaChocolate = dekarinaStore.orderChocolate(ChocolateType.MILK);	
-		
 		
 		ChocolateStore maisonCaillerStore = new MaisonCaillerStore();
 		Chocolate darkMaisonCaillerChocolate = maisonCaillerStore.orderChocolate(ChocolateType.WHITE);
@@ -27,7 +27,5 @@ public class Main {
 		ChocolateStore zaabarStore = new ZaabarStore();
 		Chocolate milkZaabarChocolate = zaabarStore.orderChocolate(ChocolateType.WHITE);
 		
-		List<String> fdgfEs = null;
-		fdgfEs.add(1, "sd");
 	}
 }
