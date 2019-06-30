@@ -7,13 +7,17 @@ public class MilkChocolate extends Chocolate {
 	
 	public MilkChocolate(ChocolateIngedientFactory ingedientFactory) {
 		this.ingedientFactory = ingedientFactory;
+		this.typeOfChocolate = "Milk";
+		this.factoryOfTheChocolate = ingedientFactory.getName();
+		prepare();
 	}
-	
-	public void prepare() {
-		System.out.println("Preparing Milk Chocolate");
+
+	@Override
+	protected void prepare() {
+		System.out.println("Preparing " + typeOfChocolate + " Chocolate from " + factoryOfTheChocolate + " factory!");
 		cocoaMass = ingedientFactory.createCocoaMass();
 		cocoaButter = ingedientFactory.createCocoaButter();
 		sugar = ingedientFactory.createSugar();
 		milkPowder = ingedientFactory.createMilkPowder();
-	}
+	}	
 }

@@ -5,15 +5,21 @@ import ingredients.MilkPowder;
 import ingredients.Sugar;
 
 public abstract class Chocolate {
-	// String name?
 	protected CocoaMass cocoaMass;
 	protected CocoaButter cocoaButter;
 	protected Sugar sugar;
 	protected MilkPowder milkPowder;
 	
-	public abstract void prepare();
+	protected String typeOfChocolate;
+	protected String factoryOfTheChocolate;
 	
-	public void box() {
-		System.out.println("Boxing up the chocolate!");		
+	protected abstract void prepare();
+
+	public String getTypeOfChocolate() {
+		return typeOfChocolate;
+	}
+
+	public String getFactoryOfTheChocolate() {
+		return factoryOfTheChocolate;
 	}
 }

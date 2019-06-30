@@ -7,10 +7,14 @@ public class WhiteChocolate extends Chocolate {
 
 	public WhiteChocolate(ChocolateIngedientFactory ingedientFactory) {
 		this.ingedientFactory = ingedientFactory;
+		this.typeOfChocolate = "White";
+		this.factoryOfTheChocolate = ingedientFactory.getName();
+		prepare();
 	}
 
-	public void prepare() {
-		System.out.println("Preparing White Chocolate from the " + ingedientFactory.getName() + " factory!");
+	@Override
+	protected void prepare() {
+		System.out.println("Preparing " + typeOfChocolate + " Chocolate from " + factoryOfTheChocolate + " factory!");
 		cocoaButter = ingedientFactory.createCocoaButter();
 		sugar = ingedientFactory.createSugar();
 		milkPowder = ingedientFactory.createMilkPowder();
